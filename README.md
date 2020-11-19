@@ -1,20 +1,14 @@
 # venera-analysis
 
-## Build Setup
+## Projeto utilizado como Trabalho de Conclusão de Curso - TCC
+## Bacharelado em Sistemas de Informação - UNIPAM - 2020
 
-```bash
-# install dependencies
-$ yarn install
+A plataforma tem como objetivo criar um ambiente de análise de dados e indicadores gerados a partir de uma análise de sentimento realizado em comentários coletados em redes sociais diversas sobre determinado assunto, sendo neste contexto Instituições de Ensino.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+São 3 projetos, incluindo esse, que são
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+* 1 - Venera-python-api: api responsável por coletar os comentários das redes sociais.
+* 2 - Venera-node-api: api responsável por realizar a análise de sentimento dos comentários coletados.
+* 3 - Venera-Analysis: interface da aplicação.
 
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+A interface foi desenvolvida utilizando VueJS, Vuetify para estilização de componentes e Nuxt para controle da aplicação e fluxo de estado.
